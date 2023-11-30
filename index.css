@@ -22,7 +22,7 @@ div {
 #greeting {
   padding: 10px;
   width: fit-content;
-  background-image: url('./IMAGES/red.jpg');
+  background-image: url('/IMAGES/red bg.jpg');
   background-color: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur(50px);
   outline: auto white;
