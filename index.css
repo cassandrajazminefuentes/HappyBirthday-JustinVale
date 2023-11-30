@@ -1,0 +1,369 @@
+body {
+  margin: 0;
+  background-color: rgb(250, 147, 106);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: helvetica;
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+div {
+  margin: 50px;
+}
+
+.start {
+  margin-top: 100px;
+}
+
+#greeting {
+  padding: 10px;
+  width: fit-content;
+  background-image: url('/IMAGES/red.jpg');
+  background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+  font-size: larger;
+}
+
+#greeting h1 {
+  margin: 25px;
+}
+
+#birthday-boy {
+  box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 35px red,
+    0 0 65px red,
+    0 0 85px red,
+    0 0 25px red,
+    0 0 25px red;
+}
+
+#msg-my {
+  padding: 15px;
+  width: fit-content;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+}
+
+button {
+  padding: 10px;
+  outline: auto black;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.img {
+  outline: auto white;
+}
+
+#quiz-container {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: fit-content;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+}
+
+.question {
+  color: rgb(255, 208, 189);
+}
+
+
+ol {
+  text-align: center; /* Center the content horizontally */
+  padding: 0;
+}
+
+ol li {
+  
+  text-align: left; /* Align text within list items to the left */
+ /* Add some left margin for spacing between number and text */
+}
+
+/* Add this style to your existing CSS */
+.question-container ul.answers {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox to create a horizontal layout */
+  justify-content: center; /* Center the radio buttons horizontally */
+}
+
+.question-container li {
+  text-align: center; /* Center the text within list items */
+  margin: 0 10px; /* Adjust the margin to create space between radio buttons */
+}
+
+/* Add this style to your existing CSS */
+#gifts .gifts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* If you want the icons to wrap to the next line when there isn't enough space */
+}
+
+.icon-container {
+  margin: 10px; /* Adjust the margin to create space between icons */
+}
+
+.content {
+  font-size: large;
+}
+
+#lion {
+  width: 300px;
+  height: 300px;
+}
+
+#memories p {
+  font-size: larger;
+}
+
+#memories h2 {
+  text-decoration: underline;
+}
+
+.content p {
+  padding: 15px;
+  width: fit-content;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+}
+
+#msgs{
+  padding: 15px;
+  width: fit-content;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+}
+
+.bdayMsg {
+  margin-bottom: 80px;
+}
+
+.bdayMsgImg {
+  margin: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  font-size: medium;
+  box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px red,
+    0 0 82px red,
+    0 0 92px red,
+    0 0 102px red,
+    0 0 151px red;
+}
+
+#result {
+  color: lightgreen;
+  text-shadow: 2px 2px 2px black;
+}
+
+.reasons {
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+}
+
+ol {
+  font-size: larger;
+}
+
+ol li {
+  margin: 5px;
+}
+
+.gifts {
+  padding: 15px;
+  width: fit-content;
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+}
+
+.countdown-container {
+  padding: 10px;
+  margin-bottom: 10;
+}
+
+#countdown-content {
+  padding: 1px 10px;
+  width: fit-content;
+  background-image: url('/IMAGES/red.jpg');
+  background-color: rgba(248, 0, 0, 0.336);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+  font-size: larger;
+  outline-style: dotted;
+}
+
+#countdown-content p {
+  color: greenyellow;
+  text-shadow: 2px 2px 2px black;
+
+}
+
+#countdown-content h2 {
+  font-family: cursive
+}
+
+.start {
+  font-size: larger;
+}
+
+
+/* NAV BAR */
+nav {
+  background-color: rgba(12, 12, 12, 0.8);
+  backdrop-filter: blur(50px);
+  padding: 10px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border-right: 1px solid white;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px red,
+    0 0 82px red,
+    0 0 92px red,
+    0 0 102px red,
+    0 0 151px red;
+}
+
+nav a:last-child {
+    border-right: none;
+  }
+
+nav a:hover {
+  font-size: medium;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px lime,
+    0 0 82px lime,
+    0 0 92px lime,
+    0 0 102px lime,
+    0 0 151px lime;
+}
+
+/* nav a.active {
+  text-decoration: underline; 
+} */
+
+section {
+  margin-top: 50px;
+  display: none; /* Hide all sections by default */
+}
+
+/* Show the home section by default */
+#home {
+  display: block;
+}
+
+
+
+
+
+/* FUNCTIONS */
+
+.countdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 2rem;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  text-align: center;
+  margin: 0 10px;
+}
+
+/* Set initial styles for the container */
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Set styles for the default and opened states */
+.icon-container .icon {
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Rotate the image when the container is clicked */
+.icon-container.opened .icon {
+  transform: rotate(180deg);
+}
+
+/* Styles for the content */
+.content {
+  display: none;
+}
+
+/* Display content when the container is opened */
+.icon-container.opened .content {
+  display: block;
+}
+
+.icon-container.opened .content2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.content img {
+  height: 250px;
+  width: 250px;
+}
+
+/* MUSIC */
+.songs {
+  flex-direction: row;
+}
