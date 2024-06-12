@@ -54,6 +54,19 @@ div {
   outline: auto white;
 }
 
+#year-1 {
+  padding: 15px;
+  width: fit-content;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(50px);
+  outline: auto white;
+  margin: 0 auto;
+}
+
+#oneYear button {
+  margin-bottom: 50px;
+}
+
 button {
   padding: 10px;
   outline: auto black;
